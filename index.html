@@ -7,12 +7,32 @@
     <title>Your Quote</title>
     <!-- This google link grabs icon of website of written domain -->
     <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design">
-    <!-- From this online library i can grab icon in body of any object
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"> -->
+    <!-- From this online library i can grab icon in body of any object-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <!--fas: font awesome solid-->
+            <span id="quote">The coming tommorrow is depending on you on. You definetily should do for this.</span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Sadhguru</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet this.">
+                <i class="fab fa-twitter"></i>
+                <!--fab: font awesome brands -->
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
